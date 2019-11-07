@@ -1,0 +1,148 @@
+$bp1: 480px;
+$bp2: 768px;
+$color1: rgb(23, 101, 125);
+$color2: rgb(192, 192, 192);
+
+@font-face {
+  font-family: Bernina;
+  src: url('../fonts/BerninaSans-Web-CondensedBold.woff2');
+}
+
+@font-face {
+  font-family: GothamHTF;
+  src: url("https://ufonts.com/q486106");
+}
+
+body {
+  font-family: Bernina, sans-serif;
+}
+
+h1 {
+  padding: 45px 10px;
+}
+
+.block {
+  margin: 0 auto;
+}
+
+.inner {
+  width: 100%;
+  text-align: center;
+}
+
+.rdv {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  font-family: GothamHTF, sans-serif;
+
+  > img {
+    flex: 2;
+  }
+
+  > button {
+    flex:1;
+    margin: 25px;
+    cursor: pointer;
+    color: $color1;
+    border-color: $color1;
+    border-width: 2px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px darken($color1, 30%);
+
+    &:hover {
+      transition: all 150ms linear;
+
+      opacity: .85;
+    }
+  }
+}
+
+
+.les_photos {
+  display: flex;
+  flex-wrap: wrap;
+
+
+  > img {
+    border-radius:50px;
+  }
+}
+
+h2 {
+  color: lighten($color1, 5%);
+  text-transform: uppercase;
+  padding-bottom: 30px;
+}
+
+.txt_principal {
+  color: $color1;
+  padding-bottom: 30px;
+
+}
+
+.bg {
+  width: 100%;
+  background-image: url('../background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+
+
+  > .txt {
+    width: 100%;
+    color: white;
+    background-color: adjust_color($color2, $alpha:-0.5);
+    position: relative;
+    top: 60%
+  }
+
+  > .promo{
+    display: block;
+    background-color: brown;
+    width: 125px;
+    font-size: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: #fff;
+    position: relative;
+    left: 70%;
+    top: 5%;
+    transform : rotate(10deg);
+  }
+}
+
+.exp {
+  width: 100%;
+}
+
+@media screen and (min-width: $bp1){
+  .inner, .bg {
+    width: $bp1;
+    margin: 0 auto;
+  }
+  .cryotherapie{
+      order: 1;
+      width: 50%;
+  }
+
+  .autre {
+    width: 50%;
+  }
+
+  .cryolipolyse {
+      order: 2;
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: $bp2){
+  .inner, .bg {
+    width: $bp2;
+  }
+
+  .cryotherapie, .autre, .cryolipolyse {
+    width: 256px;
+  }
+}
