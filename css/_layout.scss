@@ -118,7 +118,7 @@ h2 {
 }
 
 @media screen and (min-width: $bp1){
-  .inner, .bg {
+  .inner {
     width: $bp1;
     margin: 0 auto;
   }
@@ -138,7 +138,7 @@ h2 {
 }
 
 @media screen and (min-width: $bp2){
-  .inner, .bg {
+  .inner {
     width: $bp2;
   }
 
