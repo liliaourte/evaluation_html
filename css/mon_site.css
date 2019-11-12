@@ -397,8 +397,13 @@ h1 {
 .les_photos {
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+}
+
+.les_photos > .exp {
+  width: 100%;
+  text-align: right;
 }
 
 .les_photos > img {
@@ -421,34 +426,32 @@ h2 {
   background-image: url("../background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 300px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
 }
 
 .bg > .txt {
   width: 100%;
   color: white;
   background-color: rgba(192, 192, 192, 0.5);
-  position: relative;
-  top: 60%;
+  margin: 55px 0 15px 0;
 }
 
 .bg > .promo {
   display: block;
   background-color: brown;
-  width: 125px;
-  font-size: 10px;
+  margin: 50px;
+  width: 200px;
+  font-size: 15px;
   text-align: center;
   border-radius: 5px;
   color: #fff;
-  position: relative;
-  left: 70%;
-  top: 5%;
   -webkit-transform: rotate(10deg);
           transform: rotate(10deg);
-}
-
-.exp {
-  width: 100%;
+  -ms-flex-item-align: self-end;
+      align-self: self-end;
 }
 
 @media screen and (min-width: 480px) {
@@ -468,6 +471,9 @@ h2 {
     -ms-flex-order: 2;
         order: 2;
     width: 50%;
+  }
+  .exp {
+    text-align: left;
   }
 }
 

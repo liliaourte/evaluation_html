@@ -62,8 +62,12 @@ h1 {
 
 .les_photos {
   display: flex;
-  flex-wrap: wrap;
+  flex-flow:row wrap;
 
+  > .exp {
+    width: 100%;
+    text-align: right;
+  }
 
   > img {
     border-radius:50px;
@@ -87,34 +91,28 @@ h2 {
   background-image: url('../background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 300px;
-
+  display: flex;
+  flex-direction: column;
 
   > .txt {
     width: 100%;
     color: white;
     background-color: adjust_color($color2, $alpha:-0.5);
-    position: relative;
-    top: 60%
+    margin: 55px 0 15px 0;
   }
 
   > .promo{
     display: block;
     background-color: brown;
-    width: 125px;
-    font-size: 10px;
+    margin: 50px;
+    width: 200px;
+    font-size: 15px;
     text-align: center;
     border-radius: 5px;
     color: #fff;
-    position: relative;
-    left: 70%;
-    top: 5%;
     transform : rotate(10deg);
+    align-self: self-end;
   }
-}
-
-.exp {
-  width: 100%;
 }
 
 @media screen and (min-width: $bp1){
@@ -122,6 +120,8 @@ h2 {
     width: $bp1;
     margin: 0 auto;
   }
+
+
   .cryotherapie{
       order: 1;
       width: 50%;
@@ -134,6 +134,10 @@ h2 {
   .cryolipolyse {
       order: 2;
     width: 50%;
+  }
+
+  .exp {
+    text-align: left;
   }
 }
 
