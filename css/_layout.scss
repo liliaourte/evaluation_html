@@ -62,12 +62,17 @@ h1 {
 
 .les_photos {
   display: flex;
+<<<<<<< HEAD
   flex-flow:row wrap;
 
   > .exp {
     width: 100%;
     text-align: right;
   }
+=======
+  flex-wrap: wrap;
+
+>>>>>>> origin/master
 
   > img {
     border-radius:50px;
@@ -91,19 +96,30 @@ h2 {
   background-image: url('../background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+<<<<<<< HEAD
   display: flex;
   flex-direction: column;
+=======
+  height: 300px;
+
+>>>>>>> origin/master
 
   > .txt {
     width: 100%;
     color: white;
     background-color: adjust_color($color2, $alpha:-0.5);
+<<<<<<< HEAD
     margin: 55px 0 15px 0;
+=======
+    position: relative;
+    top: 60%
+>>>>>>> origin/master
   }
 
   > .promo{
     display: block;
     background-color: brown;
+<<<<<<< HEAD
     margin: 50px;
     width: 200px;
     font-size: 15px;
@@ -122,6 +138,29 @@ h2 {
   }
 
 
+=======
+    width: 125px;
+    font-size: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: #fff;
+    position: relative;
+    left: 70%;
+    top: 5%;
+    transform : rotate(10deg);
+  }
+}
+
+.exp {
+  width: 100%;
+}
+
+@media screen and (min-width: $bp1){
+  .inner, .bg {
+    width: $bp1;
+    margin: 0 auto;
+  }
+>>>>>>> origin/master
   .cryotherapie{
       order: 1;
       width: 50%;
@@ -135,6 +174,7 @@ h2 {
       order: 2;
     width: 50%;
   }
+<<<<<<< HEAD
 
   .exp {
     text-align: left;
@@ -143,6 +183,12 @@ h2 {
 
 @media screen and (min-width: $bp2){
   .inner {
+=======
+}
+
+@media screen and (min-width: $bp2){
+  .inner, .bg {
+>>>>>>> origin/master
     width: $bp2;
   }
 
