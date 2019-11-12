@@ -397,7 +397,6 @@ h1 {
 .les_photos {
   display: -ms-flexbox;
   display: flex;
-<<<<<<< HEAD
   -ms-flex-flow: row wrap;
       flex-flow: row wrap;
 }
@@ -405,10 +404,6 @@ h1 {
 .les_photos > .exp {
   width: 100%;
   text-align: right;
-=======
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
->>>>>>> origin/master
 }
 
 .les_photos > img {
@@ -431,32 +426,21 @@ h2 {
   background-image: url("../background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-<<<<<<< HEAD
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
       flex-direction: column;
-=======
-  height: 300px;
->>>>>>> origin/master
 }
 
 .bg > .txt {
   width: 100%;
   color: white;
   background-color: rgba(192, 192, 192, 0.5);
-<<<<<<< HEAD
   margin: 55px 0 15px 0;
-=======
-  position: relative;
-  top: 60%;
->>>>>>> origin/master
 }
 
 .bg > .promo {
-  display: block;
   background-color: brown;
-<<<<<<< HEAD
   margin: 50px;
   width: 200px;
   font-size: 15px;
@@ -471,26 +455,6 @@ h2 {
 
 @media screen and (min-width: 480px) {
   .inner {
-=======
-  width: 125px;
-  font-size: 10px;
-  text-align: center;
-  border-radius: 5px;
-  color: #fff;
-  position: relative;
-  left: 70%;
-  top: 5%;
-  -webkit-transform: rotate(10deg);
-          transform: rotate(10deg);
-}
-
-.exp {
-  width: 100%;
-}
-
-@media screen and (min-width: 480px) {
-  .inner, .bg {
->>>>>>> origin/master
     width: 480px;
     margin: 0 auto;
   }
@@ -507,7 +471,6 @@ h2 {
         order: 2;
     width: 50%;
   }
-<<<<<<< HEAD
   .exp {
     text-align: left;
   }
@@ -515,12 +478,6 @@ h2 {
 
 @media screen and (min-width: 768px) {
   .inner {
-=======
-}
-
-@media screen and (min-width: 768px) {
-  .inner, .bg {
->>>>>>> origin/master
     width: 768px;
   }
   .cryotherapie, .autre, .cryolipolyse {

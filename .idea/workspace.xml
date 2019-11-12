@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1cd596c-39a6-4474-860d-1b315b487778" name="Default Changelist" comment="commit final">
+    <list default="true" id="c1cd596c-39a6-4474-860d-1b315b487778" name="Default Changelist" comment="commit correction">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/_layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/_layout.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/_menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/_menu.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/mon_site.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mon_site.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/mon_site.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/mon_site.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/evaluation.html" beforeDir="false" afterPath="$PROJECT_DIR$/evaluation.html" afterDir="false" />
@@ -33,6 +32,7 @@
   <component name="ProjectId" id="1THvn6T9fVTFK33wPhSj3yKkY8d" />
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ChangesTree.GroupingKeys" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -62,7 +62,7 @@
       <updated>1573129998094</updated>
       <workItem from="1573129999198" duration="11038000" />
       <workItem from="1573141086092" duration="338000" />
-      <workItem from="1573545658562" duration="5652000" />
+      <workItem from="1573545658562" duration="7252000" />
     </task>
     <task id="LOCAL-00001" summary="commit 1h">
       <created>1573133706963</created>
@@ -85,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573141153801</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="commit correction">
+      <created>1573551346479</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1573551346480</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,6 +114,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit 1h" />
     <MESSAGE value="commit final" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit final" />
+    <MESSAGE value="commit correction" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit correction" />
   </component>
 </project>
